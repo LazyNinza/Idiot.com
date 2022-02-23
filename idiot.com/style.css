@@ -1,0 +1,53 @@
+* {
+    color: white;
+}
+body{
+    background: #030008;
+    overflow-y:hidden;
+    overflow-x: auto;
+    /* background: url("linedpaper.jpg"); */
+}
+#banner{
+    border: 3px solid rgb(255, 255, 255);
+    /*fill: rgb(241, 241, 241);*/
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    border-width: 30px;
+}
+h4 {
+    text-align: center;
+    margin-top: 0;
+}
+button{
+    margin-left: 45%;
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15%;
+    padding: 20px;
+    position: relative;
+    top: 530px;
+}
+#leDiv{
+    border: 3px solid rgb(255, 255, 255);
+    width: 670px;
+    height: 520px;
+    margin-left: 1299px;
+    font-size: 150px;
+    position: relative;
+    right: 530px;
+    top: -90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#paraG{
+    border: 3px solid white;
+    width: 670px;
+    height:520px;
+    position: relative;
+    right: 700px;
+    top: -90px;
+    font-size: 30px;
+}
