@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question 1: </h1><br>
+    <h3>Can you spell it?</h3>
+    <input id="input"type="text" placeholder="Spell you IDIOT!"><br>
+    <button id="submit">submit</button>
+    <script>
+        
+        document.getElementById('submit').onclick = function(){
+            var input = document.getElementById('input').value;
+            if(input==="it"){
+                console.log('Correct!');
+                var h1 = document.createElement('h1');
+                h1.innerHTML = "~~Rude~~";
+                document.body.append(h1);
+                var link = document.createElement('a');
+                link.innerHTML = "click";
+                link.href = "index.html";
+                document.body.append(link);
+            } else {
+                console.log('WRONG!');
+                var hi2 = document.createElement('h1');
+                hi2.innerHTML = "Wrong!";
+                document.body.append(hi2);
+            }
+        };
+    </script>
+</body>
+</html>
